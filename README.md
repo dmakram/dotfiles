@@ -1,5 +1,5 @@
 # dotfiles README
-![dotfiles](https://github.com/dmakram/dotfiles/assets/preview.png)
+![dotfiles](https://github.com/dmakram/dotfiles/blob/main/assets/preview.png)
 
 This is my dotfiles, it contains the configuration files for hyprland, waybar, kitty, mako. I try to keep it simple and change it slightly over time when I find things need to change. As Design is very important to me.
 
