@@ -10,23 +10,36 @@ Required packages:
 - mako
 - swww
 
-
 # TODO:
 - Copy the files in the .config/ to your home directory.
 - install the required packages.
 - restart the computer and login to the hyprland session.
 
-
 Editable/ Customizable files:
 - ~/.config/hypr/hyprland.conf
 - ~/.config/waybar/config
 - ~/.config/kitty/kitty.conf
-
+- ~/.config/mako/config
 
 ## hyprland.conf:
 
 This file contains the configuration for hyprland. It is a configuration file for hyprland.
 
+Here you can edit what opens on startup.
+```hyprland.conf
+#################
+### AUTOSTART ###
+#################
+
+# Autostart necessary processes (like notifications daemons, status bars, etc.)
+# Or execute your favorite apps at launch like this:
+
+exec-once = $terminal
+exec-once = nm-applet # this is the network manager applet
+exec-once = waybar & hyprpaper # this is the waybar at the top and the hyprpaper is the wallpaper system
+```
+These are examples of how to user the shortcuts.
+```hyprland.conf
 # Example binds, SUPER is the windows key
 SUPER + R = Application launcher
 SUPER + T = terminal
@@ -59,7 +72,8 @@ SUPER + down = movefocus down
 PRINT = hyprshot -m window
 # Screenshot a monitor
 PRINT + SHIFT = hyprshot -m output
-
+```
+Here is where you set the programs you use and their bindings(shortcuts).
 ``` hyprland.conf
 # Set programs that you use
 $terminal = kitty
@@ -133,21 +147,5 @@ bind = $mainMod SHIFT, S, movetoworkspace, special:magic
 # Scroll through existing workspaces with mainMod + scroll
 bind = $mainMod, mouse_down, workspace, e+1
 bind = $mainMod, mouse_up, workspace, e-1
-
 ```
-Here you can edit what opens on startup.
-```hyprland.conf
-#################
-### AUTOSTART ###
-#################
 
-# Autostart necessary processes (like notifications daemons, status bars, etc.)
-# Or execute your favorite apps at launch like this:
-
-exec-once = $terminal
-exec-once = nm-applet # this is the network manager applet
-exec-once = waybar & hyprpaper # this is the waybar at the top and the hyprpaper is the wallpaper system
-
-
-
-```
