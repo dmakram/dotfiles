@@ -1,4 +1,6 @@
 # dotfiles README
+![dotfiles](https://github.com/dmakram/dotfiles/assets/preview.png)
+
 This is my dotfiles, it contains the configuration files for hyprland, waybar, kitty, mako. I try to keep it simple and change it slightly over time when I find things need to change. As Design is very important to me.
 
 Required packages:
@@ -18,7 +20,7 @@ Required packages:
 Editable/ Customizable files:
 - ~/.config/hypr/hyprland.conf
 - ~/.config/waybar/config
-- ~/.config/kitty/kitty.conf    
+- ~/.config/kitty/kitty.conf
 
 
 ## hyprland.conf:
@@ -65,11 +67,11 @@ $fileManager = nautilus
 $menu = wofi --show drun
 $browser = /usr/bin/google-chrome-stable
 $editor = $terminal -e nvim ~/Code/workspace/
-$ai = $terminal -e gemini 
+$ai = $terminal -e gemini
 $obsidian = obsidian
 $quicknotes = $terminal -e nvim ~/Vaults/Personal/
 
-# You can change the main modifier key 
+# You can change the main modifier key
 $mainMod = SUPER # Sets "Windows" key as main modifier
 
 # Bindings
@@ -149,5 +151,3 @@ exec-once = waybar & hyprpaper # this is the waybar at the top and the hyprpaper
 
 
 ```
-
-
