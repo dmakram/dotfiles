@@ -1,0 +1,36 @@
+# tron-cyan.toml – cyan dominant version (Tron Legacy ENCOM blue-cyan glow)
+# Matching the tron-red family style: deep teal-black base + vivid cyan accents
+
+[colors.primary]
+background = '#0b1118'
+foreground = '#e8e4d9'
+dim_foreground = '#b0a89c'
+bright_foreground = '#ffffff'
+
+[colors.cursor]
+cursor = '#66d9ff'          # bright cyan cursor glow
+text = '#0b1118'
+
+[colors.selection]
+text = '#0b1118'
+background = '#40c4ff'      # cyan selection highlight
+
+[colors.normal]
+black   = '#2a323c'
+red     = '#ff1a38'         # secondary red accent (kept for warnings/errors)
+green   = '#4caf50'
+yellow  = '#ffdd57'
+blue    = '#40c4ff'         # main cyan (used as blue slot for consistency)
+magenta = '#ab47bc'
+cyan    = '#66d9ff'         # bright cyan
+white   = '#e8e4d9'
+
+[colors.bright]
+black   = '#4a5664'
+red     = '#ff3355'
+green   = '#66ff99'
+yellow  = '#ffee77'
+blue    = '#99eaff'         # brighter cyan-blue
+magenta = '#cc99ff'
+cyan    = '#99ffff'         # very bright cyan glow
+white   = '#ffffff'

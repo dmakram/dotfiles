@@ -1,0 +1,33 @@
+# tronares-wave.toml – elegant ink depth red wave
+
+[colors.primary]
+background = '#0b1118'
+foreground = '#e8e4d9'
+
+[colors.cursor]
+cursor = '#ff3355'          # red cursor
+text   = '#0b1118'
+
+[colors.selection]
+text       = '#0b1118'
+background = '#ff1a38'      # red selection
+
+[colors.normal]
+black   = '#2a323c'
+red     = '#ff1a38'
+green   = '#4caf50'
+yellow  = '#ffdd57'
+blue    = '#40c4ff'
+magenta = '#ab47bc'
+cyan    = '#66d9ff'
+white   = '#e8e4d9'
+
+[colors.bright]
+black   = '#4a5664'
+red     = '#ff3355'
+green   = '#66ff99'
+yellow  = '#ffee77'
+blue    = '#99eaff'
+magenta = '#cc99ff'
+cyan    = '#99ffff'
+white   = '#ffffff'
