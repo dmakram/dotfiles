@@ -12,6 +12,8 @@ Required packages:
 - kitty
 - mako
 - swaybg
+- alacritty
+- neovim
 
 # TODO:
 - Copy the files in the .config/ to your home directory.
@@ -23,5 +25,6 @@ Editable/ Customizable files:
 - ~/.config/waybar/config
 - ~/.config/kitty/kitty.conf
 - ~/.config/mako/config
-
+- ~/.config/nvim
+- ~/.config/alacritty
 
