@@ -1,6 +1,9 @@
 # dotfiles README
 ![dotfiles](https://github.com/dmakram/dotfiles/blob/main/assets/preview.png)
 
+![neovim](https://github.com/dmakram/dotfiles/blob/main/assets/screenshot.png)
+
+![neovim](https://github.com/dmakram/dotfiles/blob/main/assets/screenshot-1.png)
 This is my dotfiles, it contains the configuration files for niri, waybar, kitty, mako. I try to keep it simple and change it slightly over time when I find things need to change. As Design is very important to me.
 
 ### Niri
@@ -27,4 +30,5 @@ Editable/ Customizable files:
 - ~/.config/mako/config
 - ~/.config/nvim
 - ~/.config/alacritty
+
 
