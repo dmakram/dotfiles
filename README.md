@@ -10,7 +10,7 @@ This is my dotfiles, it contains the configuration files for niri, waybar, kitty
 When I found Niri, I fell in love form the first day, just the ease of setting up everything really quickly.And Honey it is fun to use and makes work much simpler. I really enjoyed the navigation from the first few seconds. I don't care if its new and beta, I started using it with ease. I know it will get better over time. So far it looks good, as a designer I struggle seeing a little bit of unwanted edges to some applications when they are rounded and such but I bet it can all be fixed. I am using this now more for work, it just made my work flow just much easier to use different strategies to move and navigate different applications. Getting some into view and others quickly out of your way.
 
 Required packages:
-- niri 
+- niri or hyprland
 - waybar
 - kitty
 - mako
