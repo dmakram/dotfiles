@@ -1,12 +1,18 @@
 {
   "layer": "top",
     "position": "top",
-    "margin-bottom": 0,
+    "spacing": 8, // Gaps between modules (4px
+    "margin-top": 4,
+    "margin-left": 8,
+    "margin-right": 8,
+
     "modules-left": [
       "hyprland/workspaces",
+      "hyprland/window",
+      
       ],
     "modules-center": [
-      "hyprland/window",
+        "clock",
       ],
     "modules-right": [
       "cpu",
@@ -15,7 +21,7 @@
       "temperature",
       "tray",
       "pulseaudio",
-      "clock",
+      
       "custom/updates",
     ],
 
@@ -52,7 +58,7 @@
       }
     },
     "network": {
-      "interface": "wlp0s20f3",
+      "interface": "wlp5s0",
       "tooltip-format-ethernet": "{ifname} ",
       "interval": 2,
       "format": " {bandwidthDownBits}  {bandwidthUpBits}",
