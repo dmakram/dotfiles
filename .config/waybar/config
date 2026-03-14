@@ -62,6 +62,7 @@
       "tooltip-format-ethernet": "{ifname} ",
       "interval": 2,
       "format": " {bandwidthDownBits}  {bandwidthUpBits}",
+      "on-click": "nmtui"
     },
     "temperature": {
       "format": "{icon} {temperatureC}°C",
